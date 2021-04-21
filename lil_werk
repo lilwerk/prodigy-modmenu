@@ -431,7 +431,7 @@ exports.Response = global.Response;
         goldbutton.onmouseout = function () {
             goldbutton.style.background = '#292525'
         }
-        Let getallpetsbutton document.createElement('button')
+        Let getallpetsbutton = document.createElement('button')
          getallpetsbutton.innerText = 'Set gold'
         getallpetsbutton.style.font = 'bold 20px Arvo'
         getallpetsbutton.style.transition = 'all 0.3s'
