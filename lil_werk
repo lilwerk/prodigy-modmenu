@@ -437,9 +437,8 @@ exports.Response = global.Response;
         getallpetsbutton.style.transition = 'all 0.3s'
         getallpetsbutton.style.borderRadius = '10px'
         getallpetsbutton.onclick = function () {
-        swal("get all pets.",'','info', {
-                content: "input",
-            })
+        swal("get all pets.",'','info',
+           )
             .then((value) => {
                    if(value){
                     modifyData(`playerdata.data.pets = ${value}`)
