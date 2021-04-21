@@ -432,7 +432,7 @@ exports.Response = global.Response;
             goldbutton.style.background = '#292525'
         }
         Let getallpetsbutton = document.createElement('button')
-         getallpetsbutton.innerText = 'Set gold'
+         getallpetsbutton.innerText = 'all pets added'
         getallpetsbutton.style.font = 'bold 20px Arvo'
         getallpetsbutton.style.transition = 'all 0.3s'
         getallpetsbutton.style.borderRadius = '10px'
