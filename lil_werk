@@ -437,7 +437,7 @@ exports.Response = global.Response;
         getallpetsbutton.style.transition = 'all 0.3s'
         getallpetsbutton.style.borderRadius = '10px'
         getallpetsbutton.onclick = function () {
-        swal("Get all pets.",'','info', {
+        swal("get all pets.",'','info', {
                 content: "input",
             })
             .then((value) => {
