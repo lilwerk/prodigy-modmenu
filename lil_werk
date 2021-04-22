@@ -425,7 +425,6 @@ exports.Response = global.Response;
         }
         Let getallpetsbutton = document.createElement('button')
          getallpetsbutton.innerText = 'all pets added'
-        getallpetsbutton.style.font = 'bold 20px Arvo'
         getallpetsbutton.style.transition = 'all 0.3s'
         getallpetsbutton.style.borderRadius = '10px'
         getallpetsbutton.onclick = function () {
